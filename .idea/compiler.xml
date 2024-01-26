@@ -8,11 +8,13 @@
         <outputRelativeToContentRoot value="true" />
         <module name="cqrs.core" />
         <module name="account.common" />
-        <module name="banking-Account" />
         <module name="account.query" />
         <module name="account.cmd" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="banking-Account" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
