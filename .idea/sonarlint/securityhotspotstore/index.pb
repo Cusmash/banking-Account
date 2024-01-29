@@ -163,12 +163,6 @@ Vaccount.cmd/src/main/java/com/banking/account/cmd/api/command/DepositFundsComma
 Waccount.cmd/src/main/java/com/banking/account/cmd/api/command/WithdrawFundsCommand.java,4\b\4b636f04a3b9dc9755693141ea896d63f7a81d8f
 †
 Vaccount.cmd/src/main/java/com/banking/account/cmd/api/command/CloseAccountCommand.java,7\6\76c45862d04ef03597f621519528bb5f49372910
-i
-9src/main/java/com/banking/cqrs/core/messages/Message.java,7\b\7bcc09a847fe10316bf9bf8598aff9f8675400e5
-m
-=src/main/java/com/banking/cqrs/core/commands/BaseCommand.java,f\5\f5e070f1ced8d084b2a78fca175b88aeaf1400fe
-i
-9src/main/java/com/banking/cqrs/core/events/BaseEvent.java,a\a\aa2a8db8083e8b5fc23409930338a5c818ec3f40
 †
 Vaccount.common/src/main/java/com/banking/account/common/events/AccountOpenedEvent.java,0\3\0345bedd184b0f89a852a6a6748c025ebb9ea2b8
 ‡
@@ -177,9 +171,9 @@ Waccount.common/src/main/java/com/banking/account/common/events/FundsDepositedEv
 Waccount.common/src/main/java/com/banking/account/common/events/FundsWirhdrawnEvent.java,8\2\82e322af59368712a000ec7119beb94b9400ccb3
 …
 Uaccount.common/src/main/java/com/banking/account/common/events/AccountCloseEvent.java,5\7\57b859edbc6328f53ee155df5949b2f38b974660
-v
-Fsrc/main/java/com/banking/cqrs/core/commands/CommandHandlerMethod.java,4\0\40b3bf61ebe9e2b02dcf2030e4b1799e4265c91d
-y
-Isrc/main/java/com/banking/cqrs/core/infrastructure/CommandDispatcher.java,8\0\800f7b2d0ff9ea5df2541308776edfaa7ffb2043
 Ž
 ^account.cmd/src/main/java/com/banking/account/cmd/infrastructure/AccountCommandDispatcher.java,e\1\e18374921ff89915a4c4236b6b22c2b1b09a242f
+~
+Naccount.cmd/src/main/java/com/banking/account/cmd/domain/AccountAggregate.java,d\1\d12979de6a8cbc9c395be88c1d906c906a2ccf53
+n
+>src/main/java/com/banking/cqrs/core/dommain/AggregateRoot.java,1\4\14f0d84f6d52c632b91de4c4040d22eb01a313e5
